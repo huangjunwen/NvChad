@@ -1,6 +1,8 @@
 local plugins = {
-  { "jamessan/vim-gnupg" },  
-  { "msuperdock/vim-agda" }  
+  {
+    "jamessan/vim-gnupg",
+    lazy = false
+  }
 }
 
 return plugins
